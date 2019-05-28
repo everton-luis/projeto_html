@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>teste1</title>
+        <meta charset="utf-8">  
+        <style type="text/css">
+
+        body{
+            background-image: url('imagens/dark-wood.jpg');
+        }
+
+        #page{
+            width: 1000px;
+            height: 650px;
+            background-color: white;
+            margin: auto;
+            border: 2px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            color: darkgray;
+        }
+
+        header{
+            background-color: floralwhite;
+            width: 100%;
+            height: 80px;
+            text-align: left;
+        }
+
+        header > .foto_restaurante{
+            margin-left: 10px;
+            float: left;
+        }
+
+        header > .nome_restaurante {
+            font-family: 'Times New Roman', Times, serif;
+            color: darkgray;
+            float: left;
+            line-height: 20px;
+        }
+
+        
+
+        nav{
+            background-color: darkgrey;
+            width: 100%;
+            height: 40px;
+            clear: both;
+        }
+
+        nav li{
+            display: inline;
+            margin-right: 20px;
+            margin-left: 10px;
+            line-height: 40px;
+        }
+
+        nav li a{
+            color: white;
+        }
+
+        nav li a:hover{
+    
+            color: black;
+            
+        }
+
+        article{
+            float: left;
+            width: 700px;
+            height: 420px;
+            margin-top:20px;
+        }
+
+        .colum1of2{
+            float: left;
+            width: 300px;
+        }
+
+        .colum2of2{
+            float: right;
+            width: 350px;
+            margin-left: 20px;
+            text-align: center;
+            font-size: 15px;
+            margin-top: 15px;
+
+        }
+
+        aside{
+            float: right;
+            width: 295px;
+            
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        aside li{
+            display: block;
+            margin-top:10px;
+            font-size: 20px;
+        }
+
+        aside > ul > li > a{
+            color: darkgrey;
+            text-decoration: none;
+        }
+
+        .contato{
+            font-size: 20px;
+            margin-top:30px;
+        }
+
+        footer{
+            background-color: darkgray;
+            width: 100%;
+            height: 65px;
+            color: white;
+            text-align: center;
+            line-height: 65px;
+            margin-top: 5px;
+        }
+
+        
+
+        .clear{
+            clear: both;
+        }
+
+        
+
+        </style>
+    </head>
+
+    <body>
+    
+       <div id="page">
+            <header>
+                <div class="foto_restaurante">
+                    <img src="imagens/site/logomarca-restaurante-japones.jpg" width="250" height="80"  />
+                </div>
+
+                <div class="nome_restaurante">
+                    <h3>YOKIZOI KITCHEN</h3>
+                    <h5>COMIDA JAPONESA</h5>
+                </div>
+
+            </header>
+
+            <nav>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">classes</a></li>
+                        <li><a href="#">categorização</a></li>
+                        <li><a href="#">sobre</a></li>
+                        <li><a href="#">contato</a></li>
+                    </ul>
+    
+            </nav>
+
+            <article>
+                <section>
+                    <div class="colum1of2">
+                            <figure>
+                                <img src="imagens/site/download-01.jpg" height="150" width="200" />
+                                <figcaption>Prato 01</figcaption>
+                            </figure>
+                    </div>
+
+                    <div class="colum2of2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mauris felis, dignissim quis dapibus vitae, interdum eu turpis. Maecenas ut scelerisque nisi. Nam egestas semper augue, at consequat tellus cursus quis. Aliquam erat volutpat. Nullam nec commodo orci. Praesent consectetur maximus diam
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="colum1of2">
+                            <figure>
+                                <img src="imagens/site/download-02.jpg" height="150" width="200" />
+                                <figcaption>Prato 02</figcaption>
+                            </figure>
+                    </div>
+
+                    <div class="colum2of2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mauris felis, dignissim quis dapibus vitae, interdum eu turpis. Maecenas ut scelerisque nisi. Nam egestas semper augue, at consequat tellus cursus quis. Aliquam erat volutpat. Nullam nec commodo orci. Praesent consectetur maximus diam
+                    </div>
+
+
+
+                </section>
+
+                
+
+            </article>
+
+            <aside>
+                <h2>Receitas Populares</h2>
+
+                <ul>
+                    <li><a href="#">Yakitori</a></li>
+                    <li><a href="#">Yakisoba de frango</a></li>
+                    <li><a href="#">Makimono</a></li>
+                    <li><a href="#">Espetinho de quiabo</a></li>
+                </ul>
+
+                
+
+                <div class="contato">
+                    <h2>Contato</h2>
+                    Yokizoi's Kitchen<br/>
+                    Bairro Pinheiros<br/>
+                    Rua Vupabussu<br/>
+                    Número 250
+                </div>
+
+            </aside>
+           
+            <div class="clear"></div>
+
+            <footer>
+                2011 Yokizoi Kitchen
+
+            </footer>
+
+
+       </div>
+
+       
+        
+
+    </body>
+
+
+</html>
